@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex-shrink: 0;
+}
+
+nav {
+  flex-shrink: 0;
+}
+
+.container {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+  margin-top: auto;
+  padding: 20px;
+  background: #222;
+  color: white;
+  text-align: center;
+}
