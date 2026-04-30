@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Template</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      color: #222;
+    }
+
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 15px;
+      background: #444;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+
+    nav a:hover {
+      background: #666;
+    }
+
+    .container {
+      padding: 30px;
+      text-align: center;
+    }
+
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      margin: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    .card {
+      background: white;
+      width: 300px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 20px;
+      background: #222;
+      color: #0056b3;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Moja Strona</h1>
+    <p>Podstawowy szablon HTML</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">O mnie</a>
+    <a href="#">Kontakt</a>
+  </nav>
+
+  <div class="container">
+    <h2>Witaj na stronie</h2>
+    <p>To jest przykładowy tekst w szablonie.</p>
+
+    <button onclick="alert('Kliknięto przycisk!')">Kliknij mnie</button>
+
+    <div class="card">
+      <h3>Karta</h3>
+      <p>Przykładowa sekcja z treścią.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Moja Strona</p>
+  </footer>
+
+</body>
+</html>
